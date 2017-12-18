@@ -1,0 +1,14 @@
+table {
+    width: 300px;
+    margin: auto;
+}
+.m-auto {
+    width: 450px;
+    margin: auto;
+}
+#main-img {
+    width: 413px;
+}
+#sub-img-1, #sub-img-2, #sub-img-3 ,#sub-img-4{
+    width: 100px;
+}
