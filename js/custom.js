@@ -1,3 +1,11 @@
+
+$('#goodGood').click(function () {
+
+    $('#containerGood').append('<input type="text" placeholder="Value"> &nbsp;');
+    $('#containerGood').append('<input type="text" placeholder="Price"> <br>');
+
+});
+
 $('#sub-img-1').click(function () {
     var imgValOne = $('#sub-img-1').attr('src');
 
@@ -17,11 +25,6 @@ $('#sub-img-4').click(function () {
     var imgValFour = $(this).attr('src');
     $('#main-img').attr('src',imgValFour);
 });
-
-
-
-
-
 
 
 
